@@ -103,13 +103,5 @@ class TransactionController extends Controller
             ], 
             Response::HTTP_OK
         );
-
-        return response()->json(
-            [
-                'success' => true,
-                'token' => $outlets,
-            ], 
-            Response::HTTP_OK
-        );
     }
 }
